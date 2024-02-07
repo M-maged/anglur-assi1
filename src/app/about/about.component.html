@@ -1,0 +1,15 @@
+<section id="about" class="py-5  ">
+    <div class="container">
+        <div class="row g-5 py-5 text-center">
+            <div class="col-md-3" *ngFor="let item of datarecipes ">
+                <div>
+                <img height="200" [src]="item.image_url" class="w-100 " [alt]="item.title">
+                <h3 class="h6 text-white">{{item.title}}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

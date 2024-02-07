@@ -1,0 +1,10 @@
+img{
+    width: 100%;
+}
+button{
+    background-color: teal;
+}
+#about{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../assets/image/wallpapersden.com_hbo-house-of-the-dragon-game-of-thrones-series_1920x1080.jpg);
+    background-size: cover;
+}

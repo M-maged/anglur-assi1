@@ -1,0 +1,10 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999999;
+}
+.active{
+    border-bottom: 3px solid darkblue;
+}
